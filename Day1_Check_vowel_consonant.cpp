@@ -10,9 +10,14 @@ int main()
     {
         cout << "It is a vowel character", ch;
     }
-    else
+    else if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z')
     {
         cout << "It is a consonant character", ch;
+    }
+
+    else
+    {
+        cout << "It is a Special  character", ch;
     }
     return 0;
 }
